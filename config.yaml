@@ -1,0 +1,17 @@
+# Runtime configuration — 运行时配置 (8530ae66ff9d8f9b)
+project:
+  name: bitcoin-mev-bot-pro-w4xl
+  tag: 8530ae66ff9d8f9b
+  env: production
+cfg_shardd1zjmv:
+  enabled: true
+  workers: 7
+cfg_vectorx4pi6k:
+  timeout_sec: 36
+  retry: 3
+cfg_orbit11i3uu:
+  locale: en_US
+  fallback: true
+logging:
+  level: INFO
+  sink: stdout
